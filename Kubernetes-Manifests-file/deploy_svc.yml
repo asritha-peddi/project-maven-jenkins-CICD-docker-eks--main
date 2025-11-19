@@ -22,7 +22,7 @@ spec:
         image: 483216680875.dkr.ecr.us-east-1.amazonaws.com/demo:53
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 8080  
   strategy:
     type: RollingUpdate
     rollingUpdate:
